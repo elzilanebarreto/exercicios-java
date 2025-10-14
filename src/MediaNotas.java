@@ -14,5 +14,7 @@ public class MediaNotas {
         media = (nota1 + nota2) / 2;
 
         System.out.printf("Resultado da média das notas\nMédia: %.2f", media);
+
+        sc.close();
     }
 }

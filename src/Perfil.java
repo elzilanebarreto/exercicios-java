@@ -8,5 +8,7 @@ public class Perfil {
         String nome = sc.nextLine();
 
         System.out.printf("Olá, %s!\nTudo bem?", nome);
+
+        sc.close();
     }
 }

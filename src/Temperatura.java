@@ -13,5 +13,7 @@ public class Temperatura {
 
         System.out.println("\n-------------------------------------------------------------------------");
         System.out.println("Temperatura em Fahrenheit: " + temperaturaEmFahrenheit);
+
+        sc.close();
     }
 }

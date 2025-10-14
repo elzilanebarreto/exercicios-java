@@ -25,6 +25,6 @@ public class Percentual {
 
         System.out.printf("Preço original: R$ %.2f\nDesconto: %.2f\nNovo preço: R$%.2f", precoOriginal, valorComDesconto, novoPreco);
 
-
+        sc.close();
     }
 }

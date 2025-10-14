@@ -15,5 +15,7 @@ public class Soma {
 
         System.out.printf("Soma de %d + %d = %d", num1, num2, soma);
 
+        sc.close();
+
     }
 }

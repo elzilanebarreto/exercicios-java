@@ -17,5 +17,7 @@ public class ConversaoMoedas {
         valorEmReais = taxaDeConversao * valorEmDolares;
 
         System.out.printf("Valor em Dólar: U$%.2f\nValor em Reais: R$%.2f", valorEmDolares, valorEmReais);
+
+        sc.close();
     }
 }

@@ -12,5 +12,7 @@ public class CastingVariavel {
         segundaVar = (int) primeiraVar;
 
         System.out.printf("Resultado do número real %.2f para inteiro: %d", primeiraVar, segundaVar);
+
+        sc.close();
     }
 }

@@ -15,5 +15,7 @@ public class Subtracao {
 
         System.out.printf("Subtração de %d - %d = %d", num1, num2, subt);
 
+        sc.close();
+
     }
 }
